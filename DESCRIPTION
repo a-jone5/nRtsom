@@ -3,7 +3,7 @@ Type: Package
 Title: Interacting with the NSOH
 Version: 0.1.0
 Author: jonesa
-Maintainer: jonesa <some@email.net>
+Maintainer: jones <jone5.gith@gmail.com>
 Description: Providing an interface to data provided via the NSOH
 Imports:
     dplyr,
