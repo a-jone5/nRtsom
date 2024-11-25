@@ -18,7 +18,7 @@ urls <- function(){
   wes <- "https://services.arcgis.com/3SZ6e0uCvPROr4mS/arcgis/rest/services/Wessex_Water_Storm_Overflow_Activity/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson"
 
   dat <- list(ang,yks,nwl,svt,sou,sww,tha,uu,wes)
-  names(dat) <- c("angian","yorkshire","northumbrian","severntrent","southern","southwest","thames","unitedutilities","wessex")
+  names(dat) <- c("anglian","yorkshire","northumbrian","severntrent","southern","southwest","thames","unitedutilities","wessex")
   return(dat)
 
 
