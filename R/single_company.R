@@ -49,7 +49,7 @@ single_company <- function(url){
 
 date_convert <- function(x) {
   suppressWarnings(
-    ifelse(is.na(x)|!is.numeric(as.numeric(substr(x, 1, 10))),
+    dplyr::if_else(is.na(x)|!is.numeric(as.numeric(substr(x, 1, 10))),
             NA,
             as.POSIXct(as.numeric(substr(x, 1, 10)),
                        origin = "1970-01-01",
